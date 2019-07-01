@@ -1,0 +1,45 @@
+menus = ["baleada", "sopa de caracol", "pollo chuco", "sopa de frijoles"]
+
+def imprimir_menu()
+	print("1 listar menu")
+	print("2 agregar pedido")
+	print("3 imprimir pedidido")
+	print("4 salir")
+	valor = input("ingrese el numero de la accion que desea realizar")
+	v_retornado
+
+def listar_menu():
+	print()
+	print("listado de menu")
+	for producto in range (len(menus)):
+		print("{0} {1}".format(producto,menus[productos])
+
+def agregar_pedido():
+	print()
+	print("creando un pedido")
+	mesa = input("numero de mesa")
+	producto = input("nombre de platillo")
+	pedidos.append("meza no. {0} platillo {1}".fornat(mesa, producto))
+
+def imprimir_pedidos():
+	if pedidos:
+		for pedido in pedidos:
+			print(pedido)
+	else:
+		print("no hay pedidos ingresados")
+
+continuar = true
+
+mientras continuar:
+	#v_retornado = imprimir_menu()
+	if int(v_retornado) == 1:
+		para menus en menus:
+	elif int/v_retornado ==	2:
+		menus=*[]
+	elif int (v_retornado)== 3:
+		valor:input("ingrese el menu a agregar:")
+		menus.append(valor)
+	elif int(v_retornado)== 4:
+		continuar=false 
+	else:
+		print("opcion no controlada")-
